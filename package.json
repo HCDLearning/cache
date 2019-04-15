@@ -1,0 +1,22 @@
+{
+  "name": "cache",
+  "version": "1.0.0",
+  "description": "cache =====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/hcdlearning/cache.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^1.0.2",
+    "config-reload": "git://github.com/HCDLearning/config-reload.git#v1.0.0",
+    "node-provider": "git+https://github.com/HCDLearning/node-provider.git#v1.0.0",
+    "redis": "^0.12.1",
+    "async": "^1.4.2"
+  }
+}
